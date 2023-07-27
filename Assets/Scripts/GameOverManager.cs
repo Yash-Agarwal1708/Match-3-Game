@@ -12,6 +12,7 @@ public class GameOverManager : MonoBehaviour
     public GameObject HighScoreAlert;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI highScoreText;
+    public string playAgainLevelToLoad;
 
     private void OnEnable()
     {
@@ -41,7 +42,8 @@ public class GameOverManager : MonoBehaviour
 
     public void RestartLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(playAgainLevelToLoad);
     }
 
 #if UNITY_EDITOR
