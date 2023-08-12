@@ -1,16 +1,7 @@
 fileFormatVersion: 2
 guid: dadf360fd0728478d9c105163ffb8146
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -7438252296424131239
-    second: MovesBackground
-  - first:
-      213: 1696468894871045735
-    second: UIBackground
-  - first:
-      213: -7388437886795520150
-    second: MenuButton
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -71,8 +62,8 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
-  cookieLightType: 1
+  applyGammaDecoding: 0
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -85,7 +76,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -97,19 +88,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 2048
@@ -121,17 +100,113 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MovesBackground
+      name: BurntOrange_0
       rect:
         serializedVersion: 2
-        x: 305
-        y: 2113
+        x: 304
+        y: 2116
         width: 579
+        height: 579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95f0fc2d7073e6499da7ab4b65eb693
+      internalID: 472846981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BurntOrange_1
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 2117
+        width: 571
+        height: 572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fc397100e5f1a47acf5699d1b92883
+      internalID: 1534619967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BurntOrange_2
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 2110
+        width: 539
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735e676a38720e1439eb357078692a64
+      internalID: 1157676152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BurntOrange_3
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 2123
+        width: 561
+        height: 561
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9073f10ba2216488dfc392038b1533
+      internalID: -457392994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BurntOrange_4
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1514
+        width: 2391
         height: 581
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -140,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e67e8812784246dbbdac450e4c1d126
-      internalID: -7438252296424131239
+      spriteID: eaede8dc00395ef4cb352cf80687838b
+      internalID: 875853722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UIBackground
+      name: BurntOrange_5
       rect:
         serializedVersion: 2
-        x: 332
-        y: 338
-        width: 2329
-        height: 531
+        x: 336
+        y: 932
+        width: 2331
+        height: 539
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc0ba8413891344f5a5af921b06a8512
-      internalID: 1696468894871045735
+      spriteID: a81bde0ce3298a544a9ec71c46a0226e
+      internalID: 1524490732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MenuButton
+      name: BurntOrange_6
       rect:
         serializedVersion: 2
-        x: 301
-        y: 1512
-        width: 2388
-        height: 570
+        x: 338
+        y: 335
+        width: 2324
+        height: 534
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,8 +257,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 308a2a940393e4ce6b3e449e80a4bd8f
-      internalID: -7388437886795520150
+      spriteID: bb160a2ee12de454cbed20412a3cf77b
+      internalID: 359176255
       vertices: []
       indices: 
       edges: []
@@ -191,7 +266,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 908e80ed1735d4d46a25b1ee680ae593
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -199,9 +274,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      MenuButton: -7388437886795520150
-      UIBackground: 1696468894871045735
-      MovesBackground: -7438252296424131239
+      BurntOrange_1: 1534619967
+      BurntOrange_3: -457392994
+      BurntOrange_0: 472846981
+      BurntOrange_4: 875853722
+      BurntOrange_5: 1524490732
+      BurntOrange_2: 1157676152
+      BurntOrange_6: 359176255
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

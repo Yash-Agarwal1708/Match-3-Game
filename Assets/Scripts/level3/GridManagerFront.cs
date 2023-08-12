@@ -235,5 +235,6 @@ void GameOver()
     PlayerPrefs.SetInt ("score", Score);
     GameOverMenu.SetActive (true);
     Destroy(gameObject);
+    SoundManager.Instance.PlaySound(SoundType.TypeGameOver);
 }
 }

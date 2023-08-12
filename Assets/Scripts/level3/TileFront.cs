@@ -51,6 +51,7 @@ public class TileFront : MonoBehaviour
 //     }
 private void OnMouseDown() //6
     {
+    SoundManager.Instance.PlaySound(SoundType.TypeSelect);
         // print(Position.x+","+Position.y+","+Position.z);
     if(selected1 == null)
     {
@@ -108,6 +109,7 @@ private void OnMouseDown() //6
                 // GridManagerFront.Instance.NumMoves--;
                 GridManagerFront.Instance.Score+=30;
                 GridManagerFront.Instance.TimeLeft+=0.25f;
+                SoundManager.Instance.PlaySound(SoundType.TypePop);
             }
             Unselect(Renderer1);
             Unselect(Renderer2);

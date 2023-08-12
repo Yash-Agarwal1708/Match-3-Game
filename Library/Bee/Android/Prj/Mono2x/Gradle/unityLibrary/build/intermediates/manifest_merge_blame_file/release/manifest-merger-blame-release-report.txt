@@ -1,0 +1,144 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00020000" />
+12-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-52
+12-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:17-49
+13
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-65
+14-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:20-62
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-77
+15-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:20-74
+16
+17    <uses-feature
+17-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-88
+18        android:name="android.hardware.touchscreen"
+18-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-60
+19        android:required="false" />
+19-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:61-85
+20    <uses-feature
+20-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-99
+21        android:name="android.hardware.touchscreen.multitouch"
+21-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:17-71
+22        android:required="false" />
+22-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:72-96
+23    <uses-feature
+23-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-108
+24        android:name="android.hardware.touchscreen.multitouch.distinct"
+24-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-80
+25        android:required="false" />
+25-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:81-105
+26
+27    <application android:extractNativeLibs="true" >
+27-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-20:17
+27-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+28        <activity
+28-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-14:16
+29            android:name="com.unity3d.player.UnityPlayerActivity"
+29-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+30            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+30-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:180-361
+31            android:hardwareAccelerated="false"
+31-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:396-431
+32            android:launchMode="singleTask"
+32-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:148-179
+33            android:resizeableActivity="true"
+33-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:362-395
+34            android:screenOrientation="fullUser"
+34-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-147
+35            android:theme="@style/UnityThemeSelector" >
+35-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+36            <intent-filter>
+36-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
+37                <action android:name="android.intent.action.MAIN" />
+37-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+37-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+39-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+40            </intent-filter>
+41
+42            <meta-data
+42-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
+43                android:name="unityplayer.UnityActivity"
+43-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
+44                android:value="true" />
+44-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
+45            <meta-data
+45-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-128
+46                android:name="WindowManagerPreference:FreeformWindowSize"
+46-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-75
+47                android:value="@string/FreeformWindowSize_tablet" />
+47-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:76-125
+48            <meta-data
+48-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:7-145
+49                android:name="WindowManagerPreference:FreeformWindowOrientation"
+49-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:18-82
+50                android:value="@string/FreeformWindowOrientation_landscape" />
+50-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:83-142
+51
+52            <layout
+52-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:7-129
+53                android:defaultHeight="1080px"
+53-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:15-45
+54                android:defaultWidth="1920px"
+54-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:46-75
+55                android:minHeight="300px"
+55-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:76-101
+56                android:minWidth="400px" />
+56-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:102-126
+57
+58            <meta-data
+58-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:7-78
+59                android:name="android.notch_support"
+59-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:18-54
+60                android:value="true" />
+60-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:55-75
+61        </activity>
+62
+63        <meta-data
+63-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-69
+64            android:name="unity.splash-mode"
+64-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-48
+65            android:value="0" />
+65-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:49-66
+66        <meta-data
+66-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-74
+67            android:name="unity.splash-enable"
+67-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-50
+68            android:value="True" />
+68-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:51-71
+69        <meta-data
+69-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-78
+70            android:name="unity.launch-fullscreen"
+70-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-54
+71            android:value="True" />
+71-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:55-75
+72        <meta-data
+72-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-83
+73            android:name="unity.allow-resizable-window"
+73-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-59
+74            android:value="True" />
+74-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:60-80
+75        <meta-data
+75-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-81
+76            android:name="notch.config"
+76-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-43
+77            android:value="portrait|landscape" />
+77-->E:\IIT BHU\clubs\COPS\DEV\gamedev\Match-3-Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:44-78
+78    </application>
+79
+80</manifest>
